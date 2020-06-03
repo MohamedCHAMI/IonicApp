@@ -1,5 +1,7 @@
 {
   "name": "callNumber",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'interstitial',
+    loadChildren: () => import('./interstitial/interstitial.module').then( m => m.InterstitialPageModule)
+  },
 ];
 
 @NgModule({
